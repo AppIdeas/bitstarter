@@ -7,7 +7,7 @@ This is a barebones Node.js app using the [Express](http://expressjs.com/) frame
 Asumming you have [Node.js](http://nodejs.org/) and [Heroku Toolbelt](https://toolbelt.heroku.com/) installed on your machine:
 
 ```sh
-git clone git@github.com:heroku/node-js-sample.git # or clone your own fork
+git clone git@github.com:heroku/bitstarter.git # or clone your own fork
 cd node-js-sample
 npm install
 foreman start
