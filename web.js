@@ -11,6 +11,7 @@ app.use(express.logger());
 app.get('/', function(request, response) {
   response.writeHead(200, {'Content-Type': 'text/utf8'});
   response.write(data);
+  response.end;
 });
 
 var port = process.env.PORT || 5000;
