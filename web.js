@@ -9,7 +9,8 @@ var data = fs.readFileSync(indexfile);
 app.use(express.logger());
 
 app.get('/', function(request, response) {
-  response.send(data);
+  response.writeHead(200, {'Content-Type': 'text/utf8'});
+  response.write(data);
 });
 
 var port = process.env.PORT || 5000;
